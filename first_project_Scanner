@@ -1,0 +1,15 @@
+import java.util.Scanner;  //alt + enter import klasy Scanner
+
+public class Lekcja1 {
+    public static void main(String []args) {
+
+        Scanner scanner = new Scanner( System.in); // teraz wczytamy dane od użytkownika i wrzucimy do zmiennej
+
+        String name; //deklaracja zmiennej
+        System.out.print("Podaj swoje imię: ");
+        name = scanner.next();
+        System.out.printf("Hello %s ", name);   // każda instrukcja kończy się średnikiem // System.out.print("Hallo" + name );   //  instrukcje, oddzielamy średnikiem
+
+    }
+}
+  
