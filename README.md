@@ -4,7 +4,6 @@
 Repository with my Java code
 -----------------------------------------------------------------------------------
 
-:   Definition 1
 
 *Basic information about programming in Java*
 
