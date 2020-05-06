@@ -4,7 +4,7 @@
 Repository with my Java code
 -----------------------------------------------------------------------------------
 
-:::warning
+::: warning
 *Basic information about programming in Java*
 :::
 
