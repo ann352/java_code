@@ -1,0 +1,26 @@
+public class lekcja3 {
+    public static void main(String[] args) {
+        int a =5, b =6; //inicjalizujemy 2 zmienne tego samego typu
+
+        boolean logiczna = a == b;  // porównujemy wartości ze sobą
+
+        System.out.println(logiczna);   // false
+
+//        boolean logiczna = a != b;  // sprawdzamy, czy są różne
+//        boolean logiczna = a < b;
+//        boolean logiczna = a >= b;
+//        boolean logiczna = a >= 5 && b >1;   logiczny and koniunkcja, 2 war.muszą być prawdziwe , war.może być wiele
+//        boolean logiczna = a >= 5 || b >1;   logiczna alternatywa, 1 war.musi być prawdziwy
+//        boolean logiczna = (a >= 5 || b >1) && true;   nawiasami wyznaczamy kolejność porównywania wartości
+//        jeżeli chodzi o kolejność działań bez użycia nawiasów, pierszeństwo ma && - utożsamiany z matematycznym
+//        ilorazem, a || jest utożsamiany z matematyczną sumą
+//        boolean logiczna != true;  operator negacji, zamienia każdą możliwą wartość na przeciwną
+//        boolean logiczna != (a==b);  operator negacji, traktuje porównywane wartości jako 1 argument,
+//        dlatego wartości, dla których dokonamy negacji, umieszczamy w nawiasach
+
+
+
+
+
+    }
+}
