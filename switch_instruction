@@ -1,0 +1,23 @@
+public class lekcja3 {
+    public static void main(String[] args) {
+        int poraRoku = 1;
+        switch (poraRoku) {
+            case 1:
+                System.out.println("Wiosna");
+                break;
+            case 2:
+                System.out.println("Lato");
+                break; //słówko skoku, jeżeli trafimy na odpowiedni wynik, przerywamy program
+            case 3:
+                System.out.println("Jesień");
+                break;
+            case 4:
+                System.out.println("Zima");
+                break;
+            default:   // zabezpiecznie przed podaniem wartości, której nie mamy w kodzie
+                System.out.println("Nie ma takiej pory roku!");
+
+        }
+
+    }
+}
