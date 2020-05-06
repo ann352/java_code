@@ -4,9 +4,10 @@
 Repository with my Java code
 -----------------------------------------------------------------------------------
 
-::: warning
+:   Definition 1
+
 *Basic information about programming in Java*
-:::
+
 
 
 **List of files**
