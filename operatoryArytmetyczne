@@ -1,0 +1,24 @@
+public class lekcja3 {
+    public static void main(String[] args) {
+        int a = 25;
+        int b = 10;
+        double wynik = (double) a / b;   //rzutowanie int na double
+        System.out.println(wynik);
+        int wynik2 =  a % b;   //modulo, reszta z dzielenia
+
+        System.out.println(wynik2);
+        a +=  b;  // zmienne możemy nadpisywać później, używając skróconego napisu
+        a++; // inkrementacja
+        System.out.println(a);
+
+        System.out.println(Math.pow(2,5));  // potęgowanie
+        System.out.println(Math.sqrt(25));  // pierwiastek kwadratowy
+        System.out.println(Math.abs(-25));  // wartość bezwzględna (absolutna)
+        System.out.println(Math.PI);  // liczba pi
+        System.out.println(a++);  // zapisując argument w ten sposób dokoujemy postinkrementacji)
+        System.out.println(++a);  // a w ten , preinkrementacji 
+
+
+
+    }
+}
