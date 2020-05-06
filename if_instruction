@@ -1,0 +1,22 @@
+public class lekcja3 {
+    public static void main(String[] args) {
+        int wiek = 16;
+        if (wiek >= 18) {
+            System.out.println("Możesz pracować, jesteś pełnoletni");
+        } else if (wiek >= 17) {
+            System.out.println("Mało już Ci zostało, niedługo będziesz, mógł pójść do pracy");
+
+        } else {
+            System.out.println("Niestety, nie możesz pracować, jesteś:");
+            //System.out.println("Fałsz");  // ta linijka się wypisze, bo if ma zastosowanie w Javie tylko do 1 linijki
+            System.out.println("niepełnoletni");
+        }   // chyba, że ujmiemy cały kod, który ma się wykonać w nawiasy, 99% przypadków
+
+        String info = wiek >= 18 ? "Pełnoletni"  :  "Niepełnoletni"; // war ? działanie dla true : i dla false
+        System.out.println(info);    // operator potrójny stosowany w prostych przypadkach
+
+    }
+
+}
+  // wcięcia mają znacznie, formatowanie kod CTRL + alt + Windows + L
+// struktura: if -> else if -> else if -> else   wukona się tylko 1 warunek ze wszystkich
